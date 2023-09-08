@@ -1,0 +1,10 @@
+/vendor/
+
+/tools/**/vendor/
+**/.php-cs-fixer.php
+**/.php-cs-fixer.cache
+
+/phpunit.xml
+.phpunit.cache
+/coverage/
+/drivers/

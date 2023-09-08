@@ -1,0 +1,30 @@
+{
+    "name": "praftr/wimi-api-client",
+    "description": "PHP Wimi Api Client",
+    "type": "library",
+    "require": {
+        "psr/http-client": "^1.0",
+        "guzzlehttp/guzzle": "^7.8"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Praftr\\WimiApiClient\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Praftr\\WimiApiClient\\Tests\\": "tests/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Luc Pieri"
+        }
+    ],
+    "require-dev": {
+        "phpunit/phpunit": "^10",
+        "symfony/dom-crawler": "^6.3",
+        "symfony/css-selector": "^6.3"
+    }
+}
